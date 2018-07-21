@@ -71,7 +71,7 @@ public class Cred {
 			public void actionPerformed(ActionEvent e) {
 				Desktop d = Desktop.getDesktop();
 				try {
-				    d.browse(new URI("https://github.com/Bringalu/Calculadora"));
+				    d.browse(new URI("https://github.com/Bringalu/listadepessoas"));
 				} catch (IOException | URISyntaxException e2) {
 				    JOptionPane.showMessageDialog(null, "erro!");
 				} 
