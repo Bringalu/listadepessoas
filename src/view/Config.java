@@ -54,7 +54,9 @@ public class Config {
 		}else if(frame.isVisible() == false) {
 			frame.setVisible(true);
 		}
-	
+		tbSenha.setText(null);
+		tbUrl.setText(null);
+		tbUser.setText(null);
 	}
 	
 	Conex conex = new Conex();

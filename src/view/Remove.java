@@ -49,7 +49,7 @@ public class Remove {
 		}else if(frame.isVisible() == false) {
 			frame.setVisible(true);
 		}
-	
+		tbId.setText(null);
 	}
 	
 	private void initialize() {

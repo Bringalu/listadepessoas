@@ -50,7 +50,8 @@ public class Insert {
 		}else if(frame.isVisible() == false) {
 			frame.setVisible(true);
 		}
-	
+	tbId.setText(null);
+	tbNome.setText(null);
 	}
 	
 	private void initialize() {
